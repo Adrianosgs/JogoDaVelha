@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  text-align: center;
+  
+}
+
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 32px;
+}
+
+.jogoVelha {
+  height: 30px;
+}
+
+#button-container button {
+  border: none;
+  padding: 12px 13px;
+  
+  margin: 0 10px;
+  margin-top: 12px;
+  border: 2px solid #000;
+  font-size: 12px;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 5px;
+  color: #fff;
+  background-color: red;
+  font-weight: bold;
+}
+
+/*jogo*/
+
+#container {
+  display: flex;
+  width: 300px;
+  margin: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+.box {
+  height: 100px;
+  border: 5px solid #000;
+  box-sizing: border-box;
+  flex: 1 1 33%;
+  border-radius: 26px;
+
+}
+
+.x {
+ font-size: 85px;
+ color: red;
+ display: inline-block;
+ line-height: 80px;
+}
+
+.o {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 5px solid green;
+  display: inline-block;
+  margin-top: 17px;
+}
+
+.hide {
+  display: none !important;
+}
+
+#placar-container {
+  font-weight: bold;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-top: 27px;
+  height: 87px;
+  background-color: #000;
+  color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+  padding: 2px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#optionx {
+  color: red;
+  margin-right: 3px;
+}
+
+#o-option {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid green;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.score-box {
+  margin: 0 30px;
+}
+
+#mensagem p {
+ position: absolute;
+ margin-left: auto;
+ margin-right: auto;
+ left: 0;
+ right: 0;
+ top: 150px;
+ width: 500px;
+ font-size: 50px;
+ background-color: #000;
+ color: #fff;
+ padding: 20px;
+ border-radius: 5px;
+ font-family: 'Roboto', sans-serif;
+}
